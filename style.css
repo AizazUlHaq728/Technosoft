@@ -1,0 +1,144 @@
+.navbar {
+    color: #fff;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 9999;
+    background-color: #4682B4;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.logo{
+    height: 40%;
+    width:30%;
+    text-align: center;
+}
+
+.logo-ili{
+    font-family: Stencil, sans-serif;
+    text-align: center;
+    font-size: 1.75em;
+    color:white;   
+}
+  
+.nav-buttons {
+  display: flex;
+  width: 70%;
+  height: 40%;
+  justify-content: space-evenly;
+}
+  
+.button {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  color:white;
+  text-decoration: none;
+}
+
+.button:active{
+    font-weight: bold;
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bbox{
+  background-color: #4682B4;
+  height:100vh;
+  width: 100vw;
+  margin: 0;
+  padding:0;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+.box{
+  margin:9% 5% 5% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  max-width: 100vw; 
+  gap: 5%;
+}
+
+.tbox{
+  width: 42%;
+  padding: 0px 50px;
+}
+
+.horizontal-bar {
+  height: 7px; /* Adjust the height as desired */
+  background-color: #4682B4; 
+  width:12%;
+  border-radius: 20px;
+  
+}
+
+  
+.square-box {
+  width: 500px; /* Adjust the width as desired */
+  height: 550px; /* Same value as width to create a square box */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden;
+  
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2); /* Add shadow on the left side */
+}
+  
+  
+.square-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttona {
+  display: inline-block;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12.5px;
+  background-color:transparent;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  border-style:solid;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.textbox{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textbox p{
+  text-align: center;
+  font-size: 1.25em;
+}
+.himgrow{
+  margin: 8% 0% 0% 10%;
+  display: flex;
+  gap: 10%;
+}
+
+.rowtext {
+  margin: 8% 0% 0% 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+}
+  
